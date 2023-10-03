@@ -4,92 +4,42 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-header {
-    font-family: "Montserrat", sans-serif;
-}
-
-header hr {
-    border-top: 1px solid #AC8181;
-}
-
-nav {
-    display: flex;
-    justify-content: space-between;
-}
-
-nav .nav-logo {
-    padding: 1rem 2rem;
-}
-
-header nav ul {
-    list-style-type: none;
-    display: flex;
-    align-items: center;
-}
-
-header nav ul li {
-    padding: 0 0.8rem;
-}
-
-header nav ul li a {
-    text-decoration: none;
-    color: #592693;
+    background: #fff;
 }
 
 .title {
     font-family: "Montserrat", sans-serif;
 }
 
-section .title-text {
-    margin: 1rem 4rem 2rem;
+.title .title-text {
+    margin: 2rem 4rem 2rem 4rem;
 }
 
-section .title-text h1 {
+.title .title-text h1 {
     color: #1d4e89;
+    font-size: 4rem;
 }
 
-section .title-text h2 
-
-section .title-text h2,
-section .title-text h4 {
-    padding: 0.6rem 0;
-}
-
-section .title-text h1 {
-    font-size: 4.8rem;
-}
-
-section .title-text h2 {
+.title .title-text h2 {
     font-size: 2rem;
 }
 
-section .title-text h4 {
+.title .title-text hr {
+    border-top: 1px solid #AC8181;
+    margin: 1rem 0;
+}
+
+.title .title-text h4 {
     font-size: 1.18rem;
     color: #555555;
 }
 
-.title hr {
-    border-top: 1px solid #AC8181;
-    margin: 0 4rem;
-}
-
-.days {
-    margin: 2rem 3.8rem 2rem;
+.exercises {
+    margin: 0 4.2rem;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.days ul li a {
-    color: #00b2ca;
-}
-
-.days ul li a.blog {
-    color: #1d4e89;
-    text-decoration: none;
-}
-
-.days ul {
+.exercises ul {
     list-style-type: none;
     display: flex;
     flex-direction: column;
@@ -97,7 +47,14 @@ section .title-text h4 {
     align-items: initial;
 }
 
-.days ul li {
+.exercises ul li {
     margin: 0.1rem;
     color: #555555;
+    font-size: 1.15rem;
+}
+
+
+.exercises ul li a {
+    text-decoration: none;
+    color: #00b2ca;
 }
